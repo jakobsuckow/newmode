@@ -14,9 +14,6 @@ function slugify(string) {
       .replace(/-+$/, '') 
   }
   
-
-
-
 module.exports = {
     slugify: slugify
   }
