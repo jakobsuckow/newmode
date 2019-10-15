@@ -1,6 +1,9 @@
 const axios = require('axios')
+require('dotenv').config()
+
 exports.handler = function (event, context, callback) {
-    const url = `https://api.airtable.com/v0/app4hMmdSl39Bd2Iv/Clothes?api_key=keycZExl0AEV9g3vb`
+    const key = process.env.AIRTABLE_API_KEY
+    const url = `https://api.airtable.com/v0/app4hMmdSl39Bd2Iv/Clothes?api_key=${key}`
 
     // Send Response 
 

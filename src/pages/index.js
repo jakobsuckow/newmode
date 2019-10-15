@@ -11,7 +11,7 @@ export default () => {
     }, [])
 
     const getPosts = async() => {
-      const url = 'https://api.airtable.com/v0/app4hMmdSl39Bd2Iv/Clothes?api_key=keycZExl0AEV9g3vb'
+      const url = 'https://newmode.netlify.com/.netlify/functions/getAirtable'
       const response = await fetch(url)
       const data = await response.json();
       setPosts(data.records)
