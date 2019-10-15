@@ -26,6 +26,11 @@ module.exports.createPages = async ({graphql, actions}) => {
         node {
           data {
             Name
+            Attachments {
+              raw {
+                url
+              }
+            }
           }
         }
       }
