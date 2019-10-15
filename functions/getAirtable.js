@@ -1,4 +1,4 @@
-import axios from 'axios'
+const axios = require('axios')
 exports.handler = function (event, context, callback) {
     const url = `https://api.airtable.com/v0/app4hMmdSl39Bd2Iv/Clothes?api_key=keycZExl0AEV9g3vb`
 
