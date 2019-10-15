@@ -1,0 +1,30 @@
+{
+  "name": "newmode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "gatsby": "^2.16.1",
+    "gatsby-plugin-sass": "^2.1.20",
+    "gatsby-source-airtable": "^2.0.9",
+    "gatsby-source-filesystem": "^2.1.33",
+    "netlify-lambda": "^1.6.3",
+    "node-sass": "^4.12.0",
+    "path": "^0.12.7",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-infinite-scroll-component": "^4.5.3"
+  }
+}
