@@ -37,7 +37,7 @@ export default () => {
          ))}
 
         </InfiniteScroll>
-            
+        <h1>Footer</h1>
         </>
     )
 }
