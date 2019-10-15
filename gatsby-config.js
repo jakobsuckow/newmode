@@ -15,8 +15,7 @@ module.exports = {
                 tables: [
                     {
                         baseId: 'app4hMmdSl39Bd2Iv',
-                        tableName: 'clothes',
-                        mapping: { 'Attachments': `fileNode` },
+                        tableName: 'clothes'
                       }
                 ]
 
