@@ -2,8 +2,8 @@ const axios = require('axios')
 require('dotenv').config()
 
 exports.handler = function (event, context, callback) {
-    const key = process.env.AIRTABLE_API_KEY
-    const url = `https://api.airtable.com/v0/app4hMmdSl39Bd2Iv/Clothes?api_key=${key}`
+    const apiKey = process.env.AIRTABLE_API_KEY
+    const url = `https://api.airtable.com/v0/appemKlsSSYmto60q/Events?api_key=${apiKey}`
 
     // Send Response 
 
@@ -14,7 +14,7 @@ exports.handler = function (event, context, callback) {
         })
     }
     // Perform API Call
-    const getApi = () => {
+    const getDates = () => {
         axios.get(url)
         .then(res => send(res.data))
         .catch(err => send(err))
@@ -22,6 +22,6 @@ exports.handler = function (event, context, callback) {
 
     // Make sure Method is "GET"
     if(event.httpMethod == 'GET') {
-        getApi()
+        getDates()
     }
 }
