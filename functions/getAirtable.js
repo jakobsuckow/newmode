@@ -3,7 +3,7 @@ require('dotenv').config()
 
 exports.handler = function (event, context, callback) {
     const apiKey = process.env.AIRTABLE_API_KEY
-    const url = `https://api.airtable.com/v0/appemKlsSSYmto60q/Events?api_key=${apiKey}`
+    const url = `https://api.airtable.com/v0/app4hMmdSl39Bd2Iv/Clothes?api_key=${apiKey}`
 
     // Send Response 
 
