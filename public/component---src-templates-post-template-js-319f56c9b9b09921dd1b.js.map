@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/templates/postTemplate.js"],"names":[],"mappings":"0FAAA,2BAEe,qBACX,OAAO","file":"component---src-templates-post-template-js-319f56c9b9b09921dd1b.js","sourcesContent":["import React from 'react'\n\nexport default () => {\n    return <h1>hi</h1>\n}"],"sourceRoot":""}
